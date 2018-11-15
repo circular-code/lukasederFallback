@@ -1,9 +1,9 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Geparkte Domain</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
         <style type="text/css">
             /* style reset */
             html, body, div, span, applet, object, iframe,
@@ -32,7 +32,7 @@
                 display: block;
             }
             body {
-                line-height: 1;
+                background: #eaeaea;
             }
             ol, ul {
                 list-style: none;
@@ -64,21 +64,81 @@
                 letter-spacing: 2px;
                 font-size: 5rem;
                 text-transform: UPPERCASE;
-                padding: 8rem 3rem;
+                padding: 3rem 3rem 8rem 3rem;
                 text-align: left;
             }
             #domain {
-                color: #00ff00;
+                color: #ffee00;
                 font-weight: 700;
+                font-size: 5rem;
+                padding: 0 15px;
+            }
+            h2 {
+                font-weight: 100;
+                font-size: 2.8rem;
+                line-height: 3rem;
+                padding: 5px 15px;
+            }
+            main {
+                padding: 2rem;
+            }
+            p {
+                padding: 1rem;
+                text-align: left;
+            }
+            strong {
+                font-weight: 700;
+                display: block;
+            }
+            a {
+                color: #2b2b2b;
+            }
+            aside {
+                padding: 2rem;
+                background: #ffee00;
+                font-weight: 700;
+                font-size: 1.5rem;
+                color: #2b2b2b;
+            }
+            @media screen and (max-width: 900px) {
+                header h2 {
+                    font-size: 2rem;
+                    line-height: 2rem;
+                }
+                #domain {
+                    font-size: 3rem;
+                    word-break: break-all;
+                }
+                body header {
+                    padding: 3rem;
+                }
+            }
+            @media screen and (max-width: 500px) {
+                header h2 {
+                    font-size: 1rem;
+                    line-height: 1rem;
+                }
+                #domain {
+                    font-size: 1.5rem;
+                    word-break: break-all;
+                }
+                body header {
+                    padding: 5rem 2rem;
+                }
+                aside {
+                    font-size: 1rem;
+                }
             }
         </style>
     </head>
     <body>
-        <header align="center"><h1 id="domain">lukaseder.de</h1><h1>Diese Webseite wurde hier geparkt!</h1></header>
-        <main><p align="center">Die aufgerufene Webseite existiert nicht (mehr) oder ist temporär aufgrund von technischen (z.B. auch DS-GVO) Problemen deaktiviert.</p>
-            <p align="center">Wenn Sie mit dem Besitzer der Domain in Kontakt treten wollen, so schreiben Sie bitte eine E-Mail an: <a href="mailto:info@lukaseder.de">info@lukaseder.de</a>.</p>
-            <p align="center">DS-GVO Info: Der Web-Server speichert keine Logs, es werden keine Cookies benutzt und es sind keine Analyse-Tools oder Tracker wie z.B. Google Analytics konfiguriert oder installiert.</p>
-            <p align="center">Imprint Info: Lukaseder Hard- und Softwareentwicklung, Stammheimer Str. 22 in D-70435 Stuttgart. USt ID: DE 255 122 494.</p>
+        <header align="center"><h1 id="domain">lukaseder.de</h1><h2>Diese Webseite wurde hier geparkt.</h2></header>
+        <aside>
+            <p align="center">Die aufgerufene Webseite existiert nicht (mehr) oder ist temporär aufgrund von technischen (z.B. auch DS-GVO) Problemen deaktiviert. Wenn Sie mit dem Besitzer der Domain in Kontakt treten wollen, so schreiben Sie bitte eine E-Mail an:  <a href="mailto:info@lukaseder.de">info@lukaseder.de</a></p>
+        </aside>
+        <main>
+            <p align="center"><strong>DSGVO Info:</strong> Der Web-Server speichert keine Logs, es werden keine Cookies benutzt und es sind keine Analyse-Tools oder Tracker wie z.B. Google Analytics konfiguriert oder installiert.</p>
+            <p align="center"><strong>Imprint Info:</strong> Lukaseder Hard- und Softwareentwicklung, Stammheimer Str. 22 in D-70435 Stuttgart. USt ID: DE 255 122 494.</p>
         </main>
     </body>
 </html>
